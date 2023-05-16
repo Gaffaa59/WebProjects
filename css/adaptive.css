@@ -1,0 +1,153 @@
+@media screen and (min-width: 2500px) {
+	body{font-size: 20px;}
+
+}
+@media screen and (min-width: 3200px) {
+	body{font-size: 18px;}	
+}
+@media screen and (min-width: 3440px) {
+	body{font-size: 20px;}
+}
+@media screen and (max-width: 1680px) {
+
+}
+@media screen and (max-width: 1500px) {
+	body{font-size: 8px}
+}
+@media screen and (max-width: 1100px) {
+	body{font-size: 7px}
+	.wrap{width: 95%}
+}
+@media screen and (max-width: 1000px){
+	body{font-size: 10px;}
+	.wrap{width: 95%}
+	.blog_item:last-child{ display: none; }
+	.blog_list{ justify-content: space-around; flex-wrap: wrap; }
+	.blogs{ display: none; }
+	.menu_item{ margin-left: 2em; }
+	.main_title{ font-size: 4em; }
+	.main_subtitle{font-size: 8em;}
+	.slider_item{font-size: 0.8em;}
+	.about_item{width: 32%;}
+	.static_line{font-size: 0.8em;}
+	.slide_review{font-size: 0.7em;}
+	.slide_review_work{font-size: 0.7em;}
+	.team_item{width: 32%;}
+	.sticers_img{height: 10em;}
+	.sticers_line{height: 15em;}
+	.about_icon{font-size: 0.8em;}
+}
+@media screen and (max-width: 840px) and (max-height:500px){
+	.main_block {font-size: 0.8em;}
+}
+@media screen and (max-width: 820px) and (max-height:500px){
+	.main_line {margin: 2em 0;}
+}
+@media screen and (max-width: 800px){
+	.wrap{width: 85%}
+	.sticers_img{height: 8em;}
+	.blog_item{margin-bottom: 5em;}
+	.review{font-size: 0.8em;}
+	._review{font-size: 0.8em;}
+	.about_icon{font-size: 0.6em;}
+}
+@media screen and (max-width: 731px){
+	.main_block {font-size: 0.8em;}
+	.review{font-size: 0.8em;}
+	._review{font-size: 0.8em;}
+	.main_subtitle{font-size: 5em;}
+	.main_button{margin-bottom: 1em;}
+	.main_line {margin: 3em 0;}
+}
+@media screen and (max-width: 700px) and (orientation: portrait){
+	body{font-size: 15px;}
+	.menu{display: none;}
+	.mob{display: block;}
+	.instagram{display: none;}
+	.sticers_img{height: 5.5em;}
+	.client_item{padding-top: 1em; display: block;}
+	.client{width: 40em;}
+	.team_list{flex-direction: column; align-items: center;}
+	.team_item{width: 33em; margin-bottom: 15em;}
+	.about_icon{font-size: 1em;}
+	.static_line{font-size: 0.6em;}
+	.about_list{flex-direction: column; align-items: center;}
+	.about_item{width: 20em; margin-bottom: 2em;}
+	.services_menu{display: block; padding-top: 3em;}
+	.s_menu_item{width: 80%;}
+	.review_info {width: 35em;}
+	.slide_review{width: 55em;}
+	.review_info_work {width: 35em;}
+	.slide_review_work{width: 60em;}
+	.services_info{font-size: 0.8em;}
+	.follow_img{height: 2em;}
+	
+}
+@media screen and (max-width: 700px) and (orientation:landscape){
+	.instagram{display: none;}
+}
+@media screen and (max-width: 670px){
+	body{font-size: 10px;}
+	.menu{display: none;}
+	.mob{display: block;}
+	.instagram{display: none;}
+	.sticers_img{height: 5.5em;}
+	.devices_img{height: 30em;}
+	.devices_phone{height: 30em;} 
+	/*.review{font-size: 0.5em;}
+	._review{font-size: 0.5em;}*/
+	.client_item{padding-top: 1em; display: block;}
+	.client{width: 40em;}
+	.team_list{flex-direction: column; align-items: center;}
+	.team_item{width: 33em; margin-bottom: 15em;}
+	.about_icon{font-size: 1em;}
+	.static_line{font-size: 0.6em;}
+	.about_list{flex-direction: column; align-items: center;}
+	.about_item{width: 20em; margin-bottom: 2em;}
+	.services_menu{display: block; padding-top: 3em;}
+	.s_menu_item{width: 80%;}
+	.review_info {width: 35em;}
+	.slide_review{width: 55em;}
+	.review_info_work {width: 35em;}
+	.slide_review_work{width: 60em;}
+	.services_info{font-size: 0.8em;}
+	.follow_img{height: 2em;}
+}
+@media screen and (max-width: 640px) and (orientation:landscape){
+	.main_block {font-size: 0.7em;}
+}
+@media screen and (max-width: 430px){
+	body{font-size: 9px;}
+}
+@media screen and (max-width: 400px){
+	body{font-size: 8px;}
+}
+@media screen and (max-width: 360px){
+	body{font-size: 7px;}
+}
+@media screen and (max-width: 312px){
+	body{font-size: 6px;}
+}
+@media screen and (max-width: 290px){
+	body{font-size: 5px;}
+}
+@media screen and (max-width: 220px){
+	body{font-size: 4px;}
+}
+/*
+@media screen and (max-width: 426px) and (orientation: portrait){
+	body{font-size: 6px;}
+	.wrap{width: 97%}
+	.main-advantages{top: 22em;}
+}
+@media screen and (max-width: 376px) and (orientation: portrait){
+	body{font-size: 7px;}
+	.item-cards{display: flex; flex-flow: column; align-items: center; justify-content: center;}
+	.wrap{width: 95%;}
+	.main-advantages{top: 21em; width: 20%;}
+}
+@media screen and (max-width: 321px) and (orientation: portrait){
+	body{font-size: 6px;}
+	.wrap{width: 98%;}
+	.main-advantages{top: 21em;}
+}*/

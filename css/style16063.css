@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik:300,400,500,700&amp;subset=cyrillic');
+/*@import url('adaptive.css');*/
+body{
+    font-size: 10px;
+	margin: 0;
+	font-family: 'Rubik';
+	font-display: auto;
+}
+
+.popup-menu{
+	width: 100%;
+	padding: 3em;
+	left: 0;
+	top: 30em;
+	/*background: rgba(9, 181, 187, 0.8);*/
+	position: absolute;
+	z-index: 2;
+	box-sizing: border-box;
+	pointer-events: none;
+	opacity: 0;
+	transition: opacity 0.5s ease;
+	transition: top 0.6s ease;
+}
+
+.popup-menu .wrap{
+	display: flex;
+	align-items: flex-start;
+	justify-content: flex-start;
+}
+.popup-list{
+	list-style: none;
+	padding: 0;
+	flex-grow: 1;
+}
+.popup-item{
+	font-size: 1.8em;
+	font-weight: 300;
+}
+.popup-link{
+	text-decoration: none;
+	position: relative;
+}
+.popup-link::after{
+	content: '';
+	display: block;
+	position: absolute;
+	left: 5%;
+	bottom: 0;
+	height: 1px;
+	/*background: #ffa658;*/
+	/*background: linear-gradient(90deg, rgba(255,255,255,0) 0%, #ffa658 20%, #ffa658 80%, rgba(255,255,255,0) 100%);*/
+	width: 0; 
+	transition: all 1s ease;	
+}
+.popup-link:hover::after{
+	width: 90%;
+}
+
+.mob{
+	display: none;
+}
